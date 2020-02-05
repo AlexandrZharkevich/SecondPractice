@@ -14,7 +14,7 @@ class Sea:
 
     def show_islands(self):
         for i in range(len(self.__islands)):
-            print(self.__islands[i])
+            self.__islands[i].show_title()
 
 
 class Land:
